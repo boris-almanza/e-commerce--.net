@@ -1,0 +1,204 @@
+﻿/* --------RESET CSSS..--------------*/
+
+body ,div,h1,h2,h3, span,p,nav ,section, ul,li ,a,lavel,input, form{
+    font-size:102%;
+    margin:0px;
+    padding:0px;
+    height:auto;
+
+}
+
+
+
+
+/*-------------------STYLO DEL FORMULARIO DE REGISTRACION*/
+#cont  {
+        border:4px solid blue;
+		display: none;
+		height: 100%;
+		width: 100%;
+        z-index:1050;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%, rgba(127,127,127,0.9) 100%);
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(127,127,127,0)), color-stop(100%,rgba(127,127,127,0.9)));
+		background: -webkit-radial-gradient(center,   rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		background: -o-radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		background: -ms-radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		background: radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007f7f7f', endColorstr='#e67f7f7f',GradientType=1 );
+	}
+	
+	.contenedor2 {
+        position:relative;
+		display: block;
+		background: #fcfcfc;
+        margin-top: 20px;
+        padding-bottom: 10px;
+		text-align: center;
+	
+		border-radius: 35px;
+		box-shadow: 20px 0px 70px rgb(167, 91, 41);
+		-webkit-transition: 0.5s ease-out ;
+		-moz-transition: 0.5s ease-out;
+		-ms-transition: 0.5s ease-out;
+		-o-transition: 0.5s ease-out;
+		transition: 0.5s ease-out;
+		opacity: 0;
+      
+	}
+    #cont1b  {
+        border:4px solid blue;
+		display: none;
+		height: 100%;
+		width: 100%;
+        z-index:1050;
+		position: fixed;
+		left: 0;
+		top: 0;
+		background: -moz-radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%, rgba(127,127,127,0.9) 100%);
+		background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,rgba(127,127,127,0)), color-stop(100%,rgba(127,127,127,0.9)));
+		background: -webkit-radial-gradient(center,   rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		background: -o-radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		background: -ms-radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		background: radial-gradient(center, ellipse cover,  rgba(127,127,127,0) 0%,rgba(127,127,127,0.9) 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007f7f7f', endColorstr='#e67f7f7f',GradientType=1 );
+	}
+    .contenedor2b {
+        position:relative;
+		display: block;
+		background: #fcfcfc;
+        margin-top: 20px;
+        padding-bottom: 10px;
+		text-align: center;
+	
+		border-radius: 35px;
+		box-shadow: 20px 0px 70px rgb(167, 91, 41);
+		-webkit-transition: 0.5s ease-out ;
+		-moz-transition: 0.5s ease-out;
+		-ms-transition: 0.5s ease-out;
+		-o-transition: 0.5s ease-out;
+		transition: 0.5s ease-out;
+		opacity: 0;
+      
+	}
+	.window-container-visible {
+		-webkit-transform:  scale(1);
+		-moz-transform:  scale(1);
+		-ms-transform:  scale(1);
+		transform:  scale(1);
+		opacity: 1;
+	}
+@media (min-widh: 380px) {
+    .window-container-visible{
+         height:20px;
+    }
+}
+
+	/*------------STYLO DE VALIDACION-----------------*/
+    #sp{
+     display:block;
+	 font-size:.8em;
+	 margin:0px 0 10px;
+	 padding:5px 0 5px 11px;
+	 width:200px}
+
+	 .confirmacion{
+         background:#C6FFD5;
+		 border:1px solid green;}
+
+	 .negacion{
+         background:#ffcccc;
+		 border:1px solid red}
+
+/*-----------------------STYLO DE LAYOUT-----------------*/
+    body{
+		
+          font-size:17px;
+          font-family:helvetica,arial,sans-serif !important;
+		  background-color:#ecf0f1;
+	  }
+
+    /*------------stylo para todo la barra de navegacion----*/
+	   #barra nav{
+		  color:aliceblue;
+		  border-color: #29282c;
+          font-size:10px;
+          background-color:#29282c;
+		  height: 60px;
+		 margin-bottom: 0; 
+	  }
+       /*------fonfo del mismo color que el nv cuando es reponse----*/
+       #myNavbar{
+            background-color:#29282c;
+       }
+
+        #logo{
+		  margin-right: 120px;
+          width:10px;
+	  }
+         #barra ul li,#ullogin li{
+          padding-top:5px;
+		  border-right:1px solid cyan;
+		
+	  }
+          #barra ul,#ullogin li{
+          padding-top:10px;
+      }
+	  
+  
+	 
+
+       #ul  li a,#ullogin li{
+		  font-family: cursive;
+		   height: 40px;
+		  text-align: center;
+		  padding-top: 6px;
+      
+	  }
+
+      #ullogin{
+         margin-right:15px;
+      
+      }
+      #ullogin li{
+       
+           
+          
+      }
+       #barra a:hover ,#login:hover,#registrar:hover
+   {
+    background-color:black; 
+    }
+      
+	
+       
+
+#login:hover{
+	
+	cursor: pointer;
+}
+
+@media (max-width: 760px) {
+    #ullogin ul li {
+        border-right: 0px;
+    }
+}
+  
+   @media (max-width: 900px) {
+	 #barra a ,#login,#registrar
+   {
+    text-align: center; 
+    }
+   #barra a:hover ,#login:hover,#registrar:hover
+   {
+    background-color:black; 
+    }
+  }
+
+footer {
+      background-color: #191919;  
+    }
+
+    

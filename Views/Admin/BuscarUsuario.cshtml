@@ -1,0 +1,44 @@
+﻿
+@{
+    ViewBag.Title = "BuscarUsuario";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>BuscarUsuario</h2>
+
+<div id="conten1" class="conainer-fluid">
+    <div id="nuevo">
+        <span>Agregar Producto</span>
+        <img src="~/Content/Imagenes/nuevo.jpg" />
+    </div>
+    <div id="titulo"><h2>Gestion de Productos</h2></div>
+
+    <div id="conten" class="container">
+        <div id="color" class="row">
+            <div class="col-md-2 det"><span>NOMBRE</span></div>
+            <div class="col-md-2 det"><span>MAIL</span></div>
+            <div class="col-md-2 det"><span>CONTRASEÑA</span></div>
+            <div class="col-md-2 det"><span>TELEFONO</span></div>
+            <div class="col-md-2"> <span>ROL</span></div>
+
+        </div>
+        @foreach (ProyectoFinal.Models.Usuario usuario in ViewBag.lista)
+        {
+
+            <div id="color" class="row">
+                <div class="col-md-2 det"><span>@usuario.nombre</span></div>
+                <div class="col-md-2 det"><span>@usuario.mail</span></div>
+                <div class="col-md-2 det"><span>@usuario.contraseña</span></div>
+                <div class="col-md-2 det"><span>@usuario.telefono</span></div>
+                <div class="col-md-2"><span>@usuario.idrol" </span></div>
+                <div class="clo.md-2 det">
+                    <!--   <button data-toggle="modal" data-target=".bd-example-modal-lg"><img src="~/Content/Imagenes/borrar.jpg" /></button>-->
+                    <!--   <button data-toggle="modal" data-target=".bd-example-modal-lg"><a href="Url.Action("BorrarProducto","Admin",new {id=producto.id },null)"><img src="~/Content/Imagenes/borrar.jpg" /></a></button>-->
+                    <a href="@Url.Action("EditarProducto","Admin",new {id=@usuario.idrol },null)"><img src="~/Content/Imagenes/editar.jpg" /></a>
+                    <a href="@Url.Action("BorrarProducto","Admin",new {id=@usuario.idrol },null)"><img src="~/Content/Imagenes/borrar.jpg" /></a>
+
+                </div>
+            </div>
+        }
+</div>
+</div>

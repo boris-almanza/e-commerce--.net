@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewBag.Title = "Contactos";
+}
+<link href="~/Content/stylo_contactos.css" rel="stylesheet" />
+<div id="jum">
+<div class="jumbotron">
+
+    <h1>Online Store</h1>
+    <p>Mission, Vission & Values</p>
+    <span class="glyphicon-arrow-down"></span>
+</div>
+</div>
+<div class="row">
+    <div class="container col-md-offset-5  col-sm-offset-5 col-xs-offset-5 col-lg-offset-4"><h2>¡CONTACTANOS!</h2></div>
+</div>
+<div  class="row" id="row">
+
+  
+    <h4>¡Dejanos tu consulta y te responderemos a la brebedad!</h4>
+    
+    <div id="formulario" class="container col-md-6">
+
+        <form @Url.Action("RecubirConsulta", "home") method="post">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="ingrese Nombre" />
+            </div>
+
+            <div class="form-group ">
+                <label for="email">Correo electrónico</label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="ingrese e-mail" />
+            </div>
+            <div class="form-group">
+                <label for="consulta">Consulta</label>
+                <textarea class="form-control" id="consulta" name="consulta" placeholder="ingrese su consulta"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+    </div>
+
+    
+
+    <div class="container col-md-6" id="info">
+        <h3>MAS INFORMACION</h3>
+        <h4> VENTAS</h4>
+        <p>11567849</p>
+
+
+        <h4>MAIL:</h4>
+        <p>empresa@gmail.com</p>
+
+        <h4>DONDE ESTAMOS?</h4>
+        <p>Buenos Aires, Capital Federal, Caballito</p>
+    </div>
+</div>
+
+
+
+

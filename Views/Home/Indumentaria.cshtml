@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Indumentaria";
+}
+<link href="~/Content/stylo_indumentaria.css" rel="stylesheet" />
+<section id="seccion">
+    <div class="container">
+        <div class="row">
+            @foreach (ProyectoFinal.Models.Producto producto in ViewBag.lista)
+            {
+                <div id="prod" class="col-sm-4">
+                    <a href="@Url.Action("Detalle","Home",new {id= @producto.id },null) "><img id="img" src=@producto.rutaimg class="img-responsive" /></a>
+                    <p> @producto.tipo</p>
+                    <p> @producto.precio</p>
+                </div>
+            }
+        </div>
+    </div> 
+</section>

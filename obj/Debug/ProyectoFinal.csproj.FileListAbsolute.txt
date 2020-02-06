@@ -1,0 +1,159 @@
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\ApplicationInsights.config
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\csc.exe
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Collections.Immutable.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\vbc.exe
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\roslyn\VBCSCompiler.exe.config
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll.config
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\ProyectoFinal.pdb
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Antlr3.Runtime.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.Web.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.WindowsServer.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.ApplicationInsights.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.Web.Infrastructure.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Newtonsoft.Json.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Helpers.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Mvc.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Optimization.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Razor.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.WebPages.Deployment.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.WebPages.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.WebPages.Razor.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\WebGrease.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.Web.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.AI.WindowsServer.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.ApplicationInsights.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Helpers.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Mvc.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Optimization.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.Razor.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.WebPages.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.WebPages.Deployment.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\System.Web.WebPages.Razor.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Antlr3.Runtime.pdb
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\bin\Newtonsoft.Json.xml
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.dll
+c:\users\boris\documents\visual studio 2015\Projects\ProyectoFinal\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\ApplicationInsights.config
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\csc.exe
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\vbc.exe
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\ProyectoFinal.dll.config
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\ProyectoFinal.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\ProyectoFinal.pdb
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Antlr3.Runtime.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.Web.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Newtonsoft.Json.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Helpers.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Mvc.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Optimization.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Razor.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.WebPages.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\WebGrease.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.Web.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Helpers.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Mvc.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Optimization.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.Razor.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.WebPages.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Antlr3.Runtime.pdb
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\bin\Newtonsoft.Json.xml
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\obj\Debug\ProyectoFinal.dll
+C:\Users\Training.AAFBA.9\Pictures\ProyectoFinal\obj\Debug\ProyectoFinal.pdb
+C:\Users\BORIS\Music\ProyectoFinal\bin\ApplicationInsights.config
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\csc.exe
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\vbc.exe
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\VBCSCompiler.exe
+C:\Users\BORIS\Music\ProyectoFinal\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\BORIS\Music\ProyectoFinal\bin\ProyectoFinal.dll.config
+C:\Users\BORIS\Music\ProyectoFinal\bin\ProyectoFinal.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\ProyectoFinal.pdb
+C:\Users\BORIS\Music\ProyectoFinal\bin\Antlr3.Runtime.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.Web.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.ApplicationInsights.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Newtonsoft.Json.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Helpers.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Mvc.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Optimization.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Razor.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.WebPages.Deployment.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.WebPages.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.WebPages.Razor.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\WebGrease.dll
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.Web.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.ApplicationInsights.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Helpers.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Mvc.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Optimization.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.Razor.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.WebPages.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.WebPages.Deployment.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\System.Web.WebPages.Razor.xml
+C:\Users\BORIS\Music\ProyectoFinal\bin\Antlr3.Runtime.pdb
+C:\Users\BORIS\Music\ProyectoFinal\bin\Newtonsoft.Json.xml
+C:\Users\BORIS\Music\ProyectoFinal\obj\Debug\ProyectoFinal.csprojResolveAssemblyReference.cache
+C:\Users\BORIS\Music\ProyectoFinal\obj\Debug\ProyectoFinal.dll
+C:\Users\BORIS\Music\ProyectoFinal\obj\Debug\ProyectoFinal.pdb

@@ -1,0 +1,86 @@
+﻿
+@{
+    ViewBag.Title = "Productos";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+
+}
+<link href="~/Content/StyloAdmin.css" rel="stylesheet" />
+<div id="conten1" class="conainer-fluid">
+    <div id="nuevo">
+        <span>Agregar Producto</span>
+        <img src="~/Content/Imagenes/nuevo.jpg" />
+    </div>
+    <div id="titulo"><h2>Gestion de Productos</h2></div>
+
+    <div id="conten" class="container">
+        <div id="color" class="row">
+            <div class="col-md-2 det"><span>Codigo de Producto</span></div>
+            <div class="col-md-2 det"><span>Tipo</span></div>
+            <div class="col-md-2 det"><span>Precio</span></div>
+            <div class="col-md-2 det"><span>Stock</span></div>
+            <div class="col-md-2"> <span>Imagen</span></div>
+
+        </div>
+      
+        @foreach (ProyectoFinal.Models.Producto producto in ViewBag.lista)
+        {
+
+            <div id="color" class="row">
+                <div class="col-md-2 det"><span>@producto.id</span></div>
+                <div class="col-md-2 det"><span>@producto.tipo</span></div>
+                <div class="col-md-2 det"><span>@producto.precio</span></div>
+                <div class="col-md-2 det"><span>@producto.stock</span></div>
+                <div class="col-md-2"><img id="images" src="@producto.rutaimg" /></div>
+                <div class="clo.md-2 det">
+                     <!--     <button data-toggle="modal" data-target=".bd-example-modal-lg"><img src="~/Content/Imagenes/borrar.jpg" /></button> -->
+               <!--       <div id="d" data-toggle="modal" data-target=".bd-example-modal-lg"><img src="~/Content/Imagenes/borrar.jpg" /></div>  -->
+                    <div data-toggle="modal" data-target="#editar_@producto.id"> <img src="~/Content/Imagenes/editar.jpg" /></div>
+                     <a href="@Url.Action("BorrarProducto","Admin",new {id=producto.id },null)"><img src="~/Content/Imagenes/borrar.jpg" /></a>  
+
+                </div>
+            </div>
+     
+
+
+
+      <div id="editar_@producto.id" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                    <form action="@Url.Action("EditarProducto","Admin", new {id=producto.id })" method="get" >
+
+                        <div class="form-group">
+                            <label>ID: @producto.id</label>
+                            
+                        </div>
+                        <div class="form-group">
+                            <label for="precio">Precio</label>
+                            <input type="text" class="form-control" id="precio" name="precio" placeholder="precio del producto"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="tipo">Nombre del producto</label>
+                            <input type="text" class="form-control" id="tipo" name="tipo" value="@producto.tipo" placeholder="nombre del producto" />
+                        </div>
+                        <div class="form-group">
+                            <label for="talla">talla</label>
+                            <input type="text" class="form-control" id="talla" name="talla" placeholder="Jane Doe" />
+                        </div>
+                        <div class="form-group">
+                            <label for="stock">Stock</label>
+                            <input type="text" class="form-control" id="stock" name="stock" placeholder="jane.doe@example.com"/>
+                        </div>
+                        <div class="form-group">
+                            <label for="imagen">Imagen</label>
+                            <input type="file" class="form-control" id="imagen" name="rutaimg" placeholder="jane.doe@example.com"/>
+                        </div>
+
+                        <input type="submit"  value="Guardar cambios"/>
+                    </form>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</div>
+
+

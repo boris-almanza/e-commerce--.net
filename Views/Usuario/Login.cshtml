@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+
+
+<form action="@Url.Action("DoLogin","Usuario")" method="post">
+
+    <div class="form-group">
+        <label for="mail">Email</label>
+        <input type="email" id="mail" class="form-control" name="mail" placeholder="ingrese su email" />
+    </div>
+    <div class="form-group">
+        <label for="contraseña">Contraseña</label>
+        <input type="number"
+               id="contraseña" class="form-control" name="contraseña" placeholder="ingrese telefono" />
+    </div>
+    <input type="submit" id="entrar" value="entrar" />
+
+</form>

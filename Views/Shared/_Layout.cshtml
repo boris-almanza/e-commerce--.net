@@ -1,0 +1,123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+         @Styles.Render("~/Content/css")
+         @Scripts.Render("~/bundles/modernizr")
+        <link href="~/Content/Stylo_Layout.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <!-- BARRA DE NAVEGACION-->
+    <div id="barra">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="logo" class="navbar-brand" href="#">Logo</a>
+                </div>
+
+                <div class="collapse navbar-collapse " id="myNavbar">
+                    <!--id="myNavbar-->
+                    <ul class="nav navbar-nav" id="ul">
+                        <li class="active"><a href="@Url.Action("Index", "Home")"> INICIO</a></li>
+                        <li> <a href="@Url.Action( "Indumentaria", "Home")">INDUMENTARIA</a></li>
+                        <li> <a href="@Url.Action( "Quienes", "Home")">QUIENES SOMOS </a></li>
+                        <li> <a href="@Url.Action("Contactos","Home")">CONTACTOS</a></li>
+                    </ul>
+                    <div clas="container-fluid "id="ullogin">
+                        <ul class="nav navbar-nav navbar-right">
+
+                           <li id="registrar"><span class="glyphicon glyphicon-user"></span> Registrate</li>
+                          @if (Session["Usuario"] == null) { 
+                         
+                         <li id="login" data-type="zoomin"><span class="glyphicon glyphicon-log-in"> </span>ingresar</li>
+                          }
+                          else
+                          {
+                            <li>@Html.ActionLink(((ProyectoFinal.Models.Usuario)Session["Usuario"]).nombre, "Detalles", "Usuario")</li>
+                                <li><a id="salir" href="@Url.Action("Logout", "Usuario")">Salir</a></li>
+                          }
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>   
+    
+
+    <!-- FORMULARIO DE LOGIN-->
+    <div  id="cont">
+        <div class="contenedor2 col-md-offset-3 col-md-6
+                      col-sm-offset-3 col-sm-6
+                       col-xs-12 ">
+            <h3>REGISTRATE</h3>
+            <form action="@Url.Action("Recibir", "Usuario")" method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre/usuario</label>
+                    <input type="text" id="nombre" class="form-control" name="nombre" placeholder="ingrese Nombre" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" class="form-control" name="mail" placeholder="ingrese su email" />
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Telefono (opcional)</label>
+                    <input type="number"
+                            id="telefono" class="form-control" name="telefono" placeholder="ingrese telefono" />
+                </div>
+                <div>
+                    <label for="contrasena"> contraseña</label>
+                    <input  type="password" id="contrasena" class="form-control" name="contrasena" placeholder="ingrese su contraseña" />
+                </div>
+                <div>
+                    <label for="codigo"> contraseña</label>
+                    <input   type="password" id="codigo" class="form-control" name="codigo" placeholder="ingrese su contraseña" />
+                </div>
+                <input type="submit" id="enviar" value="Registrar" />
+            </form>
+        </div>
+    </div>
+
+    <!--LOGIN-->
+    <div id="cont1b">
+        <div class="contenedor2b col-md-offset-3 col-md-6
+                      col-sm-offset-3 col-sm-6
+                       col-xs-12 ">
+            <h3>LOGIN</h3>
+            <form action="@Url.Action("DoLogin", "Usuario")" method="post">
+                <div class="form-group">
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" class="form-control" name="mail" placeholder="ingrese su email" />
+                </div>
+                <div>
+                    <label for="contrasena"> contraseña</label>
+                    <input type="password" id="contrasena" class="form-control" name="contrasena" placeholder="ingrese su contraseña" />
+                </div>
+                <input type="submit" id="enviar" value="ENTRAR" />
+            </form>
+        </div>
+    </div>
+
+
+        @Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+    <script type="text/javascript" src="~/Scripts/registro.js"></script>
+       
+    @RenderSection("scripts", required: false)
+</body>
+</html>

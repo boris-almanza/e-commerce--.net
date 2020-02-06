@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewBag.Title = "Detalle";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Detalle</h2>
+
+<div class="conatainer">
+    <div >
+       @foreach (ProyectoFinal.Models.Producto producto in ViewBag.detalle)
+       {
+            <div class="col-md-4"><img src="@producto.rutaimg"/></div>
+            <div class="col-md-4"> @producto.tipo</div>
+            <div class="col-md-4">@producto.precio</div>
+        }
+    </div>
+    <a href="#">comprar</a>
+</div>
+

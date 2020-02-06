@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "pagina principal";
+}
+
+<link href="~/Content/stylo_index.css" rel="stylesheet" />
+<script type="text/javascript" src="~/Scripts/Index.js"></script>
+
+<!--JUMBOTROM-->
+
+    <div id="jumbotron" class="jumbotron">
+        <div id="opacidad">
+            <h1>Online Store</h1>
+            <p>Mission, Vission & Values</p>
+            <span class="glyphicon-arrow-down"></span>
+
+
+
+        </div>
+</div>     
+
+
+<!--OFERATS QUE SE PROMOCIONAN-->
+<section id="seccion">
+    <div class="container text-center">
+         <h3>NUESTRAS OFERTAS</h3><br>
+             <div class="row ">
+                @foreach (ProyectoFinal.Models.Producto producto in ViewBag.lista)
+                {
+                    <div class="col-md-4">
+                        <div><img id="images" src="@producto.rutaimg" /></div>
+                        <div><span>@producto.tipo</span></div>
+                        <div><span>@producto.precio</span></div>
+                     <button type="button" class="btn btn-primary-outline">COMPRAR</button>
+                    </div>
+                }
+                     
+             </div>
+        </div>
+</section>

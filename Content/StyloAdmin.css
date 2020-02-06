@@ -1,0 +1,27 @@
+﻿#conten1{
+    margin-top:85px;
+}
+
+#conten{
+   margin-top:100px;
+   border:2px solid green;
+}
+
+#images{
+    height:80px;
+}
+
+#color{
+    border-top:2px solid green;
+}
+.det{
+    padding-top:2px;
+}
+
+#nuevo{
+    float:right;
+}
+
+#titulo{
+    margin-left:380px;
+}
